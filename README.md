@@ -1,5 +1,5 @@
 # Banking App Starter — Admin Dashboard Edition
-
+https://drive.google.com/file/d/1wh5ny6VzHaJo3rxt10k-qIBWdhlAIqaw/view?usp=drive_link
 A teaching/demo banking application split into two independently run projects:
 
 - `backend/` — Java 21 + Spring Boot REST API, Spring Security session login, MySQL/JPA, Swagger/OpenAPI, Thymeleaf + Bootstrap UI, customer/admin roles, and unit tests.
