@@ -1,0 +1,15 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: banking-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: banking_app
+    ports:
+      - "3306:3306"
+    volumes:
+      - banking_mysql_data:/var/lib/mysql
+
+volumes:
+  banking_mysql_data:
